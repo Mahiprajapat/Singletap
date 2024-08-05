@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            functions used
+        </title>
+    </head>
+    <body>
+        <input type="text" name="name" id="name"/>
+        <button onclick="greet()">  
+            greet
+        </button> 
+        <div class="greet">
+            mhai
+        </div>
+        <div class="greet">
+            maar
+        </div>
+        <div class="greet">
+            rha h
+        </div>
+    </body>
+    <script type="text/javascript">
+            function greet(){
+                var name = document.getElementById("name").value;
+               // prompt(name);
+               var string = "hello " + name;
+               document.getElementsByClassName("greet")[2].innerHTML=string;
+            }
+    </script>
+</html>

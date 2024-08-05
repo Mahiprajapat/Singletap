@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add to cart</title>
+    <style type="text/css">
+        .main{
+            width:400px;
+            height:400px;
+            background: url(mahi.jpg) no-repeat ;
+            background-size: cover;
+            margin:auto;
+            position:relative;
+            text-align: center;
+        }
+        .add{
+        width: 100%;
+        font-size: 30px;
+        background-color:rgba(0,0,0,0.6);
+        color:white;
+        position:absolute;
+        bottom: -40px;
+        opacity: 0px; 
+        transition:1s;
+        }
+        .main:hover .add{
+            bottom: 0px;
+            opacity: 1px;
+           /* background-color: black;
+            transition: 2s;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="main" >
+         <div class="add">
+            Add to cart
+         </div>
+    </div>
+</body>
+</html>

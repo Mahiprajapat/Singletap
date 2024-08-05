@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="z24proj.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to School Portal</h1>
+        <div class="login-container">
+            <div class="login-box">
+                <h2>Student Login</h2>
+                <form action="student-login.php" method="POST">
+                    <input type="text" name="student_username" placeholder="Username" required>
+                    <input type="password" name="student_password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="login-box">
+                <h2>School Login</h2>
+                <form action="school-login.php" method="POST">
+                    <input type="text" name="school_username" placeholder="Username" required>
+                    <input type="password" name="school_password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

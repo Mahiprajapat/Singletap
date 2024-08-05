@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Login form
+    </title>
+</head>
+<body>
+    <legend>
+    <fieldset>
+    <form>
+        Name :
+        <input type="textbox" name="name" value="" placeholder="Enter your name..." autofocus="" maxlength="3"/>
+        <br>
+        <br>
+        Address :
+        <textarea name="address" ></textarea>
+        <br>
+        <br>
+        Gender :
+        <input type="radio" name="gender" value="m" checked=""/> Male
+        <input type="radio" name="gender" value="f"/> Female
+        <input type="radio" name="gender" value="t"/> Transgender
+        <br>
+        <br>
+        Country :
+        <select>
+            <option>Please select a country</option>
+            <optgroup label="ASIA">
+                <option value="india">India</option>
+            </optgroup>
+            <optgroup label="Africa">
+                <option value="kenya">Kenya</option>
+                <option value="nigeria">Nigeria</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        Hobbies :   
+        <input type="checkbox" name="hobbies[]"> Studying
+        <input type="checkbox" name="hobbies[]"> gyming
+        <input type="checkbox" name="hobbies[]"> coding
+        <br>
+        <br>
+        Image :
+        <input type="file" name="image">
+        <br>
+        <br>
+        color : choose any color
+        <input type="color" name="color">
+        <br>
+        <br>
+        Email :
+        <input type="email" name="email">
+        <br>
+        <br>
+        Password :
+        <input type="password" name="password">
+        <br>
+        <br>
+        Age :
+        <input type="number" name="age">
+        <!-- Secret :
+        <input type="date" name="date">
+        <input type="datetime" name="datetime">
+        <input type="datetime-local" name="datetime-local">
+        <input type="time" name="time">
+        <input type="month" name="month">
+        <input type="week" name="week">
+        <input type="range" name="range"> -->
+        <br>
+        <br>
+    
+        <input type="submit"  value="send"/>
+        <input type="reset"  value="reset"/>
+    </form>
+    </fieldset>
+    </legend>
+    <!-- <center>
+        log<sub>10</sub>
+        <meter min="0" max="100" value="75"></meter>
+    </center> -->
+    </body>

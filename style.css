@@ -1,0 +1,18 @@
+.main{
+    width: 1000px;
+    height:400px;
+    background-color: blueviolet;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+    padding:300px 0px 0px 0px;
+    border:2px solid red;
+    margin:50px 5px 50px 5px; 
+}
+
+.main:hover{
+    background-color: aqua;
+    color:black;
+    border:5px dashed yellowgreen;
+}
